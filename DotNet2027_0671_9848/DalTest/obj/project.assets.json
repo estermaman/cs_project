@@ -16,13 +16,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "DalFacade": "1.0.0"
+          "DalFacade": "1.0.0",
+          "Tools": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DalList.dll": {}
         },
         "runtime": {
           "bin/placeholder/DalList.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
         }
       }
     }
@@ -37,12 +48,18 @@
       "type": "project",
       "path": "../DalList/DalList.csproj",
       "msbuildProject": "../DalList/DalList.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../LogManager.cs/Tools.csproj",
+      "msbuildProject": "../LogManager.cs/Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "DalFacade >= 1.0.0",
-      "DalList >= 1.0.0"
+      "DalList >= 1.0.0",
+      "Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -83,6 +100,9 @@
             },
             "C:\\Users\\User\\Documents\\2\\DotNet2027_0671_9848\\DalList\\DalList.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\2\\DotNet2027_0671_9848\\DalList\\DalList.csproj"
+            },
+            "C:\\Users\\User\\Documents\\2\\DotNet2027_0671_9848\\LogManager.cs\\Tools.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\2\\DotNet2027_0671_9848\\LogManager.cs\\Tools.csproj"
             }
           }
         }

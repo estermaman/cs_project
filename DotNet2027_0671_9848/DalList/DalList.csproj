@@ -14,6 +14,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\DalFacade\DalFacade.csproj" />
+		<ProjectReference Include="..\LogManager.cs\Tools.csproj" />
 	</ItemGroup>
 
 </Project>
